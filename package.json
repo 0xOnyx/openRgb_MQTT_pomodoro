@@ -1,0 +1,26 @@
+{
+  "name": "openrgb_mqtt_pomodoro",
+  "version": "1.0.0",
+  "description": "simple link openrgb and mqtt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeje720/openRgb_MQTT_pomodoro.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "jeje720",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeje720/openRgb_MQTT_pomodoro/issues"
+  },
+  "homepage": "https://github.com/jeje720/openRgb_MQTT_pomodoro#readme",
+  "dependencies": {
+    "mqtt": "^4.2.6",
+    "openrgb-sdk": "^0.4.1"
+  }
+}
