@@ -25,8 +25,6 @@ async function app(){
     { 
 
 
-        console.log(colors)
-
         for(let i = 0; i < device.length; i++)
         {
             const arrayColors = Array(device[i].colors.length)
@@ -44,11 +42,9 @@ async function app(){
 
         if(topic.startsWith("pomodoro/info"))
         {
-            console.log(payload)
             if(payload.colors !== COLOR)
             {
                 COLOR = payload.colors
-                console.log(payload.colors)
                 await pushTolight(COLOR)
             }
         }
