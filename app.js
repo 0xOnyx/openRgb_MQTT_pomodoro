@@ -32,6 +32,7 @@ mqtt.on("message", async (topic, message)=>{
             COLOR = payload.colors
             await client.connect()
             await pushTolight(COLOR)
+            await client.disconnect()
         }
     }
 })
